@@ -1,6 +1,10 @@
 # Prerequisites
 *.d
 
+# VS build artifact
+*.idb
+*.pdb
+
 # Compiled Object files
 *.slo
 *.lo
@@ -26,7 +30,15 @@
 *.a
 *.lib
 
+# Log files
+*.log
+*.tlog
+
 # Executables
 *.exe
 *.out
 *.app
+
+proj\.win32/Debug\.win32/
+
+proj\.win32/\.vs/
