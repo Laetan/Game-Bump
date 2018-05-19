@@ -10,6 +10,12 @@
     <Filter Include="src">
       <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Elements">
+      <UniqueIdentifier>{57743d7c-1a91-4fd3-9f08-4d76e8a82f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene">
+      <UniqueIdentifier>{7b243428-00e2-4d59-b5e9-3a7b33313c19}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -19,6 +25,18 @@
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MovingObject.cpp">
+      <Filter>src\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Bump.cpp">
+      <Filter>src\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Field.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -30,6 +48,18 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Bump.h">
+      <Filter>src\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MovingObject.h">
+      <Filter>src\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Field.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
